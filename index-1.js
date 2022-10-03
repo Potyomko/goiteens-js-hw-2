@@ -1,21 +1,31 @@
 
-// Пункт 1 і 2
+// Пункт 1 
 
-const k1 = '5px';
-console.log(Number.parseInt(k1));
-console.log(Number.parseFloat(k1));
+const k1 = Number.parseInt('5px');
+console.log(k1);
 
-const k2 = '12djd334';
-console.log(Number.parseInt(k2));
-console.log(Number.parseFloat(k2));
+const k2 = Number.parseInt('12djd334');
+console.log(k2);
 
-const k3 = '12.45asdwe12';
-console.log(Number.parseInt(k3));
-console.log(Number.parseFloat(k3));
+const k3 = Number.parseInt ('12.45asdwe12');
+console.log(k3);
 
-const k4 = 'qwqweeewq'
-console.log(Number.parseInt(k4));
-console.log(Number.parseFloat(k4));
+const k4 = Number.parseInt('qwqweeewq');
+console.log(k4);
+
+// Пункт 2
+
+const k5 = Number.parseFloat('5px');
+console.log(k5);
+
+const k6 = Number.parseFloat('12djd334');
+console.log(k6);
+
+const k7 = Number.parseFloat ('12.45asdwe12');
+console.log(k7);
+
+const k8 = Number.parseFloat('qwqweeewq');
+console.log(k8);
 
 // Пункт 3
 
