@@ -34,7 +34,7 @@ console.log(Math.min(2,34,99,3,22,36,733,18));
 
 // Пункт 4
 
-console.log(Math.random() * (19 - 3) + 1);
+console.log(Math.random() * (19 - 3) + 3);
 
 // Пункт 5
 
@@ -45,17 +45,18 @@ console.log(typeof result);
 
 const email = 'vnpotomko@gmail.com' ;
 console.log(email.includes('@'));
+console.log(email.length);
 
 // Пункт 7
 
-const my = 'my';
+const my = 'My';
 const name = 'name';
 const is = 'is';
-const fullName = 'my' + 'name' + 'is' + 'Victor';
+const fullName = `${my} ${name} ${is} Victor.`; 
 console.log(fullName);
 
 // Пункт 8
 
-const userName = 'Ira';
+const userName = 'Іро';
 const payment = 42500;
-alert('Дякуємо, Іро! До сплати ' + payment + ' гривень');
+alert(`Дякуємо, ${userName}! До сплати ${payment} гривень.`);
